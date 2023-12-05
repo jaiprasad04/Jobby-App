@@ -1,0 +1,152 @@
+.item-link {
+  text-decoration: none;
+}
+
+.job-card-item {
+  background-color: #202020;
+  padding: 24px;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.company-logo-name-location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-logo-and-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 48px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    width: 70px;
+  }
+}
+
+.company-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .company-name {
+    font-size: 20px;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+
+.rating-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.company-rating {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-rating {
+    font-size: 18px;
+  }
+}
+
+.company-location-type-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-location-type-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 6px;
+}
+
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  /* margin-left: 8px;
+  margin-right: 24px; */
+}
+
+.employe-type-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.briefcase-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.package {
+  color: #f1f5f9;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.company-description {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.company-description-text {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.horizontal-line {
+  color: #7e858e;
+  width: 100%;
+}
